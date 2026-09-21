@@ -1,3 +1,4 @@
+# SPDX-License-Identifier: MIT OR Apache-2.0
 # The Arch/CachyOS system-layer backend for NixAudio.
 #
 # NixAudio publishes WHAT the local graph requires as `nixaudio.want`. This module answers WITH

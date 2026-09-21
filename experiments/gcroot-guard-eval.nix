@@ -1,3 +1,4 @@
+# SPDX-License-Identifier: MIT OR Apache-2.0
 # Throwaway eval check for modules/gcroot-guard.nix -- NOT part of the module surface. Confirms
 # the unit renders with the PATH that makes it able to run at all, and that `failLoudly` actually
 # changes the ExecStart prefix. Safe to delete; nothing imports this file.

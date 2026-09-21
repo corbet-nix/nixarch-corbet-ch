@@ -1,3 +1,4 @@
+# SPDX-License-Identifier: MIT OR Apache-2.0
 # The Arch/CachyOS user-layer backend for NixAudio.
 #
 # Home Manager owns the user unit, while the running PipeWire and its command-line clients come

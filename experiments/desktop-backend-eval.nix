@@ -1,3 +1,4 @@
+# SPDX-License-Identifier: MIT OR Apache-2.0
 # Throwaway eval check for the nixdesktop backend -- NOT part of the module surface. Confirms
 # that roles declared by nixdesktop's profile actually resolve into Arch package names, and that
 # the two halves of the backend (system packages, user spawn commands) agree about which binary

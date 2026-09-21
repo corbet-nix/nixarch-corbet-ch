@@ -1,3 +1,4 @@
+# SPDX-License-Identifier: MIT OR Apache-2.0
 # modules/shelly.nix — Shelly, nixarch's own graphical package manager.
 #
 # WHAT IT IS. A GTK4 front-end for pacman and the AUR — search, install, remove, browse

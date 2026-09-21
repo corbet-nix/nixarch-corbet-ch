@@ -1,3 +1,4 @@
+# SPDX-License-Identifier: MIT OR Apache-2.0
 # home/shell.nix — the CONFIG/dotfiles layer (home-manager) that complements
 # nixarch's SYSTEM layer. System-wide package breadth (pacman/AUR) is
 # `nixarch.packages`'s job; this module is home-manager's side of the same

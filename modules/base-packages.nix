@@ -1,3 +1,4 @@
+# SPDX-License-Identifier: MIT OR Apache-2.0
 # modules/base-packages.nix — the pacman packages every nixarch host wants, unconditionally.
 #
 # WHY THIS IS NIXARCH'S OWN PACKAGE SET, NOT A DOMAIN REPO'S. Same reasoning as

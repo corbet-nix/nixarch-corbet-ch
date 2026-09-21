@@ -1,3 +1,4 @@
+# SPDX-License-Identifier: MIT OR Apache-2.0
 # A minimal home-manager configuration showing how to use nixarch's home-manager
 # modules in a per-user setup.
 #

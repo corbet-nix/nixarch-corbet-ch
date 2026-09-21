@@ -1,3 +1,4 @@
+# SPDX-License-Identifier: MIT OR Apache-2.0
 # A minimal system-manager configuration showing both nixarch modules in action.
 #
 # Usage: import this into your system-manager flake alongside nixarch as a

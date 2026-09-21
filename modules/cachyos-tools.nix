@@ -1,3 +1,4 @@
+# SPDX-License-Identifier: MIT OR Apache-2.0
 # modules/cachyos-tools.nix — CachyOS's own operator tooling: the update notifier, the welcome
 # app, the kernel GUI and the package-installer GUI. Four packages, four independent `enable`
 # options, all of them off by default.

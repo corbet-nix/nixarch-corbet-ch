@@ -1,3 +1,4 @@
+# SPDX-License-Identifier: MIT OR Apache-2.0
 # lib/host-path.nix — the host's own PATH, for units that must call host tools.
 #
 # THE PROBLEM THIS NAMES ONCE. system-manager injects a nix-store-only PATH into every systemd

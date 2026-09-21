@@ -1,3 +1,4 @@
+# SPDX-License-Identifier: MIT OR Apache-2.0
 # modules/gshadow-sync.nix — keep /etc/gshadow in lockstep with /etc/group.
 #
 # WHY: userborn (how system-manager realises `users.groups`) writes /etc/passwd,

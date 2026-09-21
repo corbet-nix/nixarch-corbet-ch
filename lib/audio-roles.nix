@@ -1,3 +1,4 @@
+# SPDX-License-Identifier: MIT OR Apache-2.0
 # Arch/CachyOS resolution for NixAudio's semantic `nixaudio.want` contract. Pure data, shared by
 # the system-manager backend and its eval checks.
 #

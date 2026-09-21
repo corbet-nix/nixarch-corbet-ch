@@ -1,3 +1,4 @@
+# SPDX-License-Identifier: MIT OR Apache-2.0
 # lib/desktop-roles.nix — the Arch/CachyOS resolution tables for nixdesktop's roles. Pure data,
 # no module system: imported by BOTH modules/desktop-backend.nix (system layer, roles -> pacman
 # packages) and home/desktop.nix (user layer, roles -> spawn commands).

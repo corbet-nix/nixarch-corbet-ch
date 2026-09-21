@@ -1,3 +1,4 @@
+# SPDX-License-Identifier: MIT OR Apache-2.0
 # home/desktop.nix — the USER-layer half of the Arch backend for nixdesktop.
 #
 # Closes the seam that would otherwise leak absolute binary paths into every consumer's personal

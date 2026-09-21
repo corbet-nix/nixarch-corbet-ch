@@ -1,3 +1,4 @@
+# SPDX-License-Identifier: MIT OR Apache-2.0
 # home/dev.nix — a LEAN home-manager module for nixarch's target persona:
 # the developer/AI-engineer USER layer (as opposed to profiles/ai-workstation.nix,
 # which is the SYSTEM layer — python+uv, GPU toolchain).

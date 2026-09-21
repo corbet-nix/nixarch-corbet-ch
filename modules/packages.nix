@@ -1,3 +1,4 @@
+# SPDX-License-Identifier: MIT OR Apache-2.0
 # modules/packages.nix — declarative Arch/AUR package management. This is
 # nixarch's headline feature: the installed package set lives as Nix
 # declarations, and the machine CONVERGES to it on every system-manager

@@ -1,3 +1,4 @@
+# SPDX-License-Identifier: MIT OR Apache-2.0
 {
   description = "nixarch — declarative Arch/CachyOS workstations, managed the Nix way (pre-alpha scaffold)";
 
@@ -7,7 +8,7 @@
   # nixarch without a desktop at all.
   #
   # nixhost IS an input, for exactly one thing: `lib.probeFact`/`lib.collectProbes`
-  # (github:julian-corbet/nixhost-corbet-ch, `lib/facts.nix`) -- the shared, plain-function fix for
+  # (github:corbet-nix/nixhost-corbet-ch, `lib/facts.nix`) -- the shared, plain-function fix for
   # the cross-namespace defensive-read defect class (a bare `config.nixfoo.bar or fallback` cannot
   # tell "nixfoo not composed here" from "nixfoo composed but `bar` moved/renamed/rejected" -- see
   # nixhost's own `lib/facts.nix` header). `device-gids.nix`'s own `config.nixiam.posix.groups`
@@ -16,7 +17,7 @@
   # sees an ordinary module function and never needs to know `probeFact` exists.
   inputs.nixpkgs.url = "github:NixOS/nixpkgs/nixos-unstable";
   inputs.nixhost = {
-    url = "git+https://github.com/julian-corbet/nixhost-corbet-ch";
+    url = "git+https://github.com/corbet-nix/nixhost-corbet-ch";
     inputs.nixpkgs.follows = "nixpkgs";
   };
 

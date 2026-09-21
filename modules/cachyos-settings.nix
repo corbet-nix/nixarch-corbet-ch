@@ -1,3 +1,4 @@
+# SPDX-License-Identifier: MIT OR Apache-2.0
 # modules/cachyos-settings.nix — CachyOS's whole-system tuning profile, declared as a deliberate
 # BASE LAYER rather than as distro identity.
 #

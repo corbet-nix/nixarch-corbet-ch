@@ -1,3 +1,4 @@
+# SPDX-License-Identifier: MIT OR Apache-2.0
 # modules/gcroot-guard.nix — catch the activated-but-never-registered system-manager generation.
 #
 # ── THE TRAP, EXACTLY ───────────────────────────────────────────────────────────────────────────

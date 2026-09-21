@@ -1,3 +1,4 @@
+# SPDX-License-Identifier: MIT OR Apache-2.0
 # modules/foreign-service.nix — declaratively manage the CONFIG of a service
 # whose binary and systemd unit are owned by pacman (foreign to Nix), while
 # still getting an automatic re-apply when that config changes.

@@ -1,3 +1,4 @@
+# SPDX-License-Identifier: MIT OR Apache-2.0
 # modules/device-gids.nix — pin shared device groups (render, video, input, ...)
 # to a caller-supplied gid map, and keep them there across reboots. Three parts:
 #
@@ -34,7 +35,7 @@
 # `nixarch.deviceGids` with nothing asserting the copies still agree.
 #
 # So: read `config.nixiam.posix.groups` through `lib.probeFact`
-# (github:julian-corbet/nixhost-corbet-ch, `lib/facts.nix`) and let the
+# (github:corbet-nix/nixhost-corbet-ch, `lib/facts.nix`) and let the
 # resolved value become the DEFAULT for `nixarch.deviceGids`. This repo
 # takes nixiam as neither a flake input nor an import — a bare
 # `config.nixiam.posix.groups or { }` cannot tell "nixiam was never composed

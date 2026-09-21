@@ -1,3 +1,4 @@
+# SPDX-License-Identifier: MIT OR Apache-2.0
 # checks/default.nix
 #
 # EVAL-TIME checks for nixarch's system-manager modules. No build, no VM: every check evaluates
@@ -21,7 +22,7 @@
   # flake evaluation — reaching for it is what kept this suite unreachable from `flake check`.
   # The default preserves the standalone `nix-instantiate --eval` invocation documented below.
 , system ? builtins.currentSystem
-  # `lib.probeFact` (github:julian-corbet/nixhost-corbet-ch) -- device-gids.nix now takes this as
+  # `lib.probeFact` (github:corbet-nix/nixhost-corbet-ch) -- device-gids.nix now takes this as
   # a closed-over function argument (see its own header + flake.nix's input comment), so its
   # checks need one too. Defaults to resolving a sibling checkout the same way `nixdesktop` above
   # does for the standalone invocation; `flake.nix`'s own `checks` composition overrides this with

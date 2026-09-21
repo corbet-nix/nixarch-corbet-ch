@@ -1,3 +1,4 @@
+# SPDX-License-Identifier: MIT OR Apache-2.0
 name: ci
 
 on:
@@ -25,8 +26,8 @@ jobs:
       # option-value contract by checking current sibling sources explicitly.
       - name: Check the nixdesktop backend contract
         run: |
-          git clone --depth 1 https://github.com/julian-corbet/nixdesktop-corbet-ch.git ../nixdesktop
-          git clone --depth 1 https://github.com/julian-corbet/nixhost-corbet-ch.git ../nixhost
+          git clone --depth 1 https://github.com/corbet-nix/nixdesktop-corbet-ch.git ../nixdesktop
+          git clone --depth 1 https://github.com/corbet-nix/nixhost-corbet-ch.git ../nixhost
           nix-instantiate --eval --strict checks/default.nix \
             --arg nixpkgs '(builtins.getFlake (toString ./.)).inputs.nixpkgs.outPath' \
             --arg nixdesktop ../nixdesktop \

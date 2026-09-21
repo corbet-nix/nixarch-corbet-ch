@@ -498,9 +498,9 @@ nixarch is one of several small, independently-usable open-source projects
 sharing a common design system: a NixOS distro build (**nixnas**), a generic
 RAM/memory-tuning NixOS module (**nixram**), tiny sub-1GB NixOS VPS profiles
 (**nixvps**), cross-machine native Wayland app forwarding
-([nixremote](https://github.com/julian-corbet/nixremote-corbet-ch)), and the
+([nixremote](https://github.com/corbet-nix/nixremote-corbet-ch)), and the
 safe-adoption pattern for declarative shell config, across fish, bash and zsh
-([nixsh](https://github.com/julian-corbet/nixsh-corbet-ch)). nixarch's own
+([nixsh](https://github.com/corbet-nix/nixsh-corbet-ch)). nixarch's own
 niche is the non-NixOS, Arch-family side of the same "declarative machines"
 idea: access to rolling Arch breadth, tidied by Nix's reproducible layers.
 
@@ -510,11 +510,11 @@ moving out. The two are designed to pair: nixdesktop declares desktop roles and
 generates config, `desktop-backend` here resolves those roles into Arch
 packages. Either works without the other.
 
-[nixdesktop]: https://github.com/julian-corbet/nixdesktop-corbet-ch
-[nixaudio]: https://github.com/julian-corbet/nixaudio-corbet-ch
-[nixgpu]: https://github.com/julian-corbet/nixgpu-corbet-ch
-[nixdev]: https://github.com/julian-corbet/nixdev-corbet-ch
+[nixdesktop]: https://github.com/corbet-nix/nixdesktop-corbet-ch
+[nixaudio]: https://github.com/corbet-nix/nixaudio-corbet-ch
+[nixgpu]: https://github.com/corbet-nix/nixgpu-corbet-ch
+[nixdev]: https://github.com/corbet-nix/nixdev-corbet-ch
 
-## License
+## Licence
 
-[MIT License](LICENSE) © 2026 Julian Corbet
+Outbound licence is `MIT OR Apache-2.0`. See `LICENSE-MIT` and `LICENSE-APACHE`; every source file carries `SPDX-License-Identifier: MIT OR Apache-2.0`.

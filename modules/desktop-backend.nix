@@ -1,3 +1,4 @@
+# SPDX-License-Identifier: MIT OR Apache-2.0
 # modules/desktop-backend.nix — the Arch/CachyOS platform backend for nixdesktop.
 #
 # nixdesktop declares WHAT a desktop session needs (roles: a file manager, a polkit agent, a

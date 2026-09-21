@@ -1,3 +1,4 @@
+# SPDX-License-Identifier: MIT OR Apache-2.0
 # modules/packages-audit.nix — reports what is on this machine that the declaration does not
 # explain, and what exists more than once. REPORTS ONLY: it never installs, removes, or fails.
 #

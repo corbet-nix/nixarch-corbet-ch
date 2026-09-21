@@ -1,3 +1,4 @@
+# SPDX-License-Identifier: MIT OR Apache-2.0
 # modules/logrotate.nix — logrotate: package, timer, and a place to declare config.
 #
 # WHY ITS OWN MODULE, NOT modules/base-packages.nix. base-packages.nix's own header draws the
